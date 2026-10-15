@@ -1,6 +1,6 @@
 {
   "skill_name": "movie-coupon",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "moooai",
   "description": "电影票优惠券 - 获取淘票票、猫眼等电影平台优惠",
   "api_endpoint": "https://agskills.moontai.top/coupon/movie",
@@ -14,5 +14,5 @@
     "电影票"
   ],
   "created_at": "2025-03-16",
-  "updated_at": "2025-03-16"
+  "updated_at": "2026-10-16"
 }
