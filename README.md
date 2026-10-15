@@ -21,6 +21,14 @@ python scripts/fetch_coupons.py
 python scripts/fetch_coupons.py --json
 ```
 
+## 领取页面示例
+
+扫码或点击领取链接后进入的购票页面：
+
+**淘票票**（正在热映/即将上映，选座购票）：
+
+![淘票票购票页](assets/movie-sample1.png)
+
 ## 重要说明
 
 - API 请求自动附加 `ch` / `u` 归因参数（匿名安装标识，用于渠道统计）
