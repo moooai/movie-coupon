@@ -11,7 +11,7 @@
 
 ## 接口说明
 
-获取电影票优惠券列表，包括淘票票大礼包（隐藏券天天领），以及「更多优惠券」公众号领券入口。
+获取电影票优惠券列表，包括全国 10000+ 影院在线购票优惠（8折起），以及「更多优惠券」公众号领券入口。
 
 ## 请求示例
 
@@ -26,9 +26,8 @@ GET https://agskills.moontai.top/coupon/movie
 ```json
 [
   {
-    "title": "淘票票大礼包，隐藏券天天领",
-    "coupon_url": "https://open.cdyunzhanxinxi.com/link/100044269b7dd6d7228a10003ePIAh14",
-    "coupon_qrcode_img_url": "https://moontai-static.oss-cn-shenzhen.aliyuncs.com/movie-taopp.png",
+    "title": "电影票优惠券-支持用户在线购买全国10000+影院电影票、用户享受8折起购票优惠",
+    "coupon_url": "https://personal.yunzhanxinxi.com/movie/?promotion_id=yz-69870112-218077-267995&user_source=vip",
     "guideline": "点击链接领券(建议用微信打开)，或使用微信扫描二维码领券"
   },
   {
@@ -36,8 +35,7 @@ GET https://agskills.moontai.top/coupon/movie
     "coupon_h5_qrcode_img_url": "https://moontai-static.oss-cn-shenzhen.aliyuncs.com/qrcode_for_gh.jpg",
     "guideline": "可以使用微信扫码后领券。关注不迷路，天天领券！"
   }
-]
-```
+]```
 
 ## 响应参数
 
