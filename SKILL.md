@@ -3,7 +3,7 @@ name: movie-coupon
 display_name: 电影票优惠券-淘票票、猫眼等电影平台优惠
 description: 获取电影票优惠券，包括淘票票、猫眼等主流电影平台的优惠。返回领取链接和二维码图片，用户可点击链接或扫描二维码领取优惠。
 english_description: Fetch movie ticket coupons from platforms like Taopiaopiao and Maoyan. Returns coupon links and QR code images for users to redeem via WeChat.
-version: 1.0.0
+version: 2.0.0
 author: moooai
 permissions: 网络访问权限（调用电影优惠券API）
 homepage: https://github.com/moooai/movie-coupon
